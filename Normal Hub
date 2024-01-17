@@ -1,5 +1,5 @@
-Normal Main: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/Normal%20Kaitun"))()
+Normal Main: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/NormalMain"))()
 
-Normal Kaitun: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/NormalMain"))()
+Normal Kaitun: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/Normal%20Kaitun"))()
 
 Please Use This Fluxus: AFXCAXIROBLOX
