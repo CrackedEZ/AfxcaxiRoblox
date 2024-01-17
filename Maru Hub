@@ -1,5 +1,5 @@
-Maru Main: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/Maru%20Kaitun"))()
+Maru Main: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/MaruMain"))()
 
-Maru Kaitun: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/MaruMain"))()
+Maru Kaitun: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/Maru%20Kaitun"))()
 
 Please Use This Fluxus: AfxcaxiRoblox
