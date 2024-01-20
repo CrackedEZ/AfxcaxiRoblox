@@ -1,7 +1,20 @@
-W-Azure Main: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/W-AzureMain"))()
+print("Welcome To W-Azure")
+print("Thank You For Using W-Azure")
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(.3)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To W-Azure <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Visit W-Azure's Discord For More Information <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Thank You For Using W-Azure <Color=/>"):Display()
+end)
 
-W-Azure Farm Bounty: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/W-AzureBounty"))()
-
-W-Azure Oneclick: loadstring(game:HttpGet("https://raw.githubusercontent.com/CrackedEZ/CrackHub/main/W-AzureOneClick"))()
-
-Please Use This Fluxus: AFXCAXIROBLOX
+wait(.2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
