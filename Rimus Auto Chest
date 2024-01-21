@@ -68,3 +68,5 @@ assert(getrawmetatable)
         end
         return old(self, ...)
     end)
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vuquocoai123/lua/main/AutoCollectFruit"))()
