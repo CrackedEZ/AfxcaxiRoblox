@@ -1,4 +1,3 @@
-print(a.StatusCode)
 spawn(function() 
     repeat
         task.wait()
