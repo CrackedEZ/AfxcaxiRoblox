@@ -1,0 +1,19 @@
+print("Welcome To Radon Hub")
+print("Thank You For Using Radon Hub")
+spawn(function() 
+    repeat
+        task.wait()
+    until game:IsLoaded()
+    repeat
+        task.wait()
+    until game.Players
+    repeat
+        task.wait()
+    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
+    wait(.3)
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Radon Hub <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Visit Alchemy Or Radon Discord For More Information <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red> Thank You For Using Radon <Color=/>"):Display()
+end)
+wait(.3)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/RadonHub/main/Script.lua"))()
