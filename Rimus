@@ -69,4 +69,12 @@ assert(getrawmetatable)
         return old(self, ...)
     end)
 wait(1)
+getgenv().Setting = {
+    ["WhiteScreen"] = false,
+    ["TimeReset"] = 4.5,
+    ["ModFarm"] = {
+        ["StopItemLegendary"] = true,
+        ["SummonKillDarkbeard"] = true
+    }
+}
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vuquocoai123/lua/main/LoaderChest.lua"))()
